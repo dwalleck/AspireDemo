@@ -7,7 +7,6 @@ namespace AspireDemo.DataDispatcherFunction;
 
 public class Function
 {
-    
     /// <summary>
     /// A simple function that takes a string and returns both the upper and lower case version of the string.
     /// </summary>
