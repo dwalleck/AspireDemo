@@ -1,0 +1,15 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/AspireDemo.DataDispatcherFunction/AspireDemo.DataDispatcherFunction.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AspireDemo.DataDispatcherFunction.Tests/AspireDemo.DataDispatcherFunction.Tests.csproj" />
+  </Folder>
+  <Project Path="src/AspireDemo.AppHost/AspireDemo.AppHost.csproj" />
+  <Project Path="src/AspireDemo.ServiceDefaults/AspireDemo.ServiceDefaults.csproj" />
+</Solution>
