@@ -19,6 +19,7 @@ public class Function
     {
         var builder = new HostApplicationBuilder();
         builder.AddServiceDefaults();
+        builder.AddSqlServerClient(connectionName: "database");
         _host = builder.Build();
         _traceProvider = _host.Services.GetRequiredService<TracerProvider>();
     }
